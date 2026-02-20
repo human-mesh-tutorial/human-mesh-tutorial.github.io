@@ -112,7 +112,7 @@
   <script defer src="static/js/index.js"></script>
   
   <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
@@ -163,10 +163,10 @@
       }
     ]
   }
-  </script>
+  </script> -->
   
   <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -178,7 +178,7 @@
       "https://github.com/YOUR_GITHUB_USERNAME"
     ]
   }
-  </script>
+  </script> -->
 </head>
 <body>
 
@@ -242,50 +242,56 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Tutorial: 3D Human Mesh Modeling and Recovery from RGB and LiDAR</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
+          <!-- TODO: Replace with your paper title -->
+          <h1 class="title is-1 publication-title">3D Human Mesh Modeling and Recovery from RGB and LiDAR</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- TODO: Replace with your paper authors and their personal links -->
+            <span class="author-block">
+              <a href="https://rbregier.github.io/" target="_blank">Romain Brégier</a><sup>*</sup>,</span>
               <span class="author-block">
-                <a href="https://rbregier.github.io/" target="_blank">Romain Brégier</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="https://istvansarandi.com/" target="_blank">István Sárándi</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://salmag98.github.io/" target="_blank">Salma Galaaoui</a><sup>*</sup>,</span>
-                  </span>
-                  </div>
+              <a href="https://istvansarandi.com/" target="_blank">István Sárándi</a><sup>*</sup>,</span>
+              <span class="author-block">
+              <a href="https://salmag98.github.io/" target="_blank">Salma Galaaoui</a><sup>*</sup>,</span>
+              </span>
+          </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">CVPR 2026<br>Denver, Colorado</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+          <div class="is-size-5 publication-authors">
+            <!-- TODO: Replace with your institution and conference/journal info -->
+            <span class="author-block">CVPR 2026 Tutorial<br>Denver, Colorado</span>
+            <!-- TODO: Remove this line if no equal contribution -->
+            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+          </div>
 
-                  <div class="column has-text-centered">
-                    <div class="section-links">
+          <div class="column has-text-centered">
+            <div class="section-links">
 
-                      <span class="link-block">
-                        <a href="#general-info"
-                        class="button is-normal is-rounded is-dark">
-                        <span>General Info</span>
-                      </a>
-                      </span>
+              <span class="link-block">
+                <a href="#general-info"
+                class="button is-normal is-rounded is-dark">
+                <span>General Info</span>
+              </a>
+              </span>
 
-                      <span class="link-block">
-                        <a href="#schedule"
-                        class="button is-normal is-rounded is-dark">
-                        <span>Schedule</span>
-                      </a>
-                      </span>
+              <span class="link-block">
+                <a href="#schedule"
+                class="button is-normal is-rounded is-dark">
+                <span>Schedule</span>
+              </a>
+              </span>
 
-                      <span class="link-block">
-                        <a href="#organizers"
-                        class="button is-normal is-rounded is-dark">
-                        <span>Organizers</span>
-                      </a>
-                      </span>
+              <span class="link-block">
+                <a href="#organizers"
+                class="button is-normal is-rounded is-dark">
+                <span>Organizers</span>
+              </a>
+              </span>
 
+              <span class="link-block">
+                <a href="#program"
+                class="button is-normal is-rounded is-dark">
+                <span>Program</span>
+              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -298,11 +304,14 @@
   <div class="container is-max-desktop content">
     <h2 class="title">General Information</h2>
     <div class="content has-text-justified">
+    <p>In this half-day tutorial, we will provide a general overview of the state of the art in human mesh modeling and recovery.
+We will begin with an introduction to <em>parametric human body mesh models</em> covering their motivation, design choices and trade-offs.
+We will then move to an overview of <em>3D Human Mesh Recovery (HMR) from RGB</em> data,
+before moving on to <em>HMR from depth data</em>, with a particular focus on challenging in-the-wild conditions and LiDAR data.</p>
     <ul>
-      <li>Half-day tutorial.</li>
-      <li>Format: in-person attendance.</li>
-      <li>Material: we will prepare a website for the tutorial with relevant material including presentation slides and video recordings, as well as a GitHub repository with code examples.</li>
-      <li>Target audience: the tutorial targets both academic and industrial researchers of all levels. We especially aim to support new PhD students and attendees with limited prior knowledge of human modeling and mesh recovery, as well as researchers in adjacent disciplines such as robotics or autonomous driving looking for an up to date and practical overview of the topic. The tutorial will introduce foundational concepts and will step-by-step build toward more advanced topics throughout the presentations. We expect an audience of ca. 50--100 people.</li>
+      <li>Date: to be confirmed (2026, June 3 - 4)</li>
+      <li>Format: half-day tutorial. Recordings will be made available online.</li>
+      <li>Target audience: academic and industrial researchers of all levels. We will introduce foundational concepts and will step-by-step build toward more advanced topics throughout the presentations.</li>
       <li>Subject areas: Humans; Face, body, pose, gesture, movement (primary), 3D from single images, 3D from multi-view and sensors, Robot perception, Autonomous driving.</li>
     </ul>
     </div>
@@ -312,29 +321,30 @@
 
 <section class="section" id="motivation">
   <div class="container is-max-desktop content">
-    <h2 class="title">Overview</h2>
+    <h2 class="title">Motivation</h2>
     <div class="content has-text-justified">
-      The understanding of human pose and shape is the cornerstone of multiple AI applications ranging from monitoring, AR/VR, sport and posture analysis, human-robot interaction all the way to autonomous driving.
-      <br><br>
-      Accurate human perception enables digital systems to interact appropriately with people in both indoor and outdoor environments.
-      <br><br>
-      Recent advances have pushed the field forward: modern methods now begin to achieve strong in-the-wild Human Mesh Recovery (HMR) performance, making them more reliable and useful for a wide variety of downstream tasks.
-      <br><br>
-      With this growing interest, the community has seen the emergence of datasets and shape-recovery models, as well as an expanding range of input modalities; including RGB, depth, LiDAR, \etc.
-      <br><br>
-      At the same time, multiple human body models are being developed, each offering different levels of detail, interpretability and expressivity.
-      <br><br>
-      While these developments open up exciting new opportunities, they also introduce new challenges.
-      <br><br>
-      Designing and deploying human mesh recovery systems remains difficult due to dependency on the chosen body model, peculiarities of single-person and multi-person settings, challenges of occlusions and interactions with the 3D scene, and the reliance on data-hungry training pipelines.
-    </div>
+      <p>The understanding of human pose and shape is the cornerstone of multiple AI applications ranging from monitoring, AR/VR, sport and posture analysis, human-robot interaction all the way to autonomous driving.
+Accurate human perception enables digital systems to interact appropriately with people in both indoor and outdoor environments.</p>
+
+<p>Recent advances have pushed the field forward: modern methods now begin to achieve strong in-the-wild Human Mesh Recovery (HMR) performance, making them more reliable and useful for a wide variety of downstream tasks.
+With this growing interest, the community has seen the emergence of datasets and shape-recovery models, as well as an expanding range of input modalities; including RGB, depth, LiDAR, etc.
+At the same time, multiple human body models are being developed, each offering different levels of detail, interpretability and expressivity.</p>
+
+<p>While these developments open up exciting new opportunities, they also introduce new challenges.
+Designing and deploying human mesh recovery systems remains difficult due to dependency on the chosen body model, peculiarities of single-person and multi-person settings, challenges of occlusions and interactions with the 3D scene, and the reliance on data-hungry training pipelines.</p>
+
+<p>This tutorial is therefore motivated by the need for a clear, structured, and accessible overview of the current HMR landscape.
+The increasing use of foundation models and large-scale pretrained systems makes it particularly timely to disseminate a clear picture of the underlying principles of human body modeling and HMR, so that these methods can be more easily adopted, extended, and applied to adjacent fields beyond core human pose estimation.
+Our goal is to lower the entry barrier for newcomers, provide a unifying perspective for practitioners, and foster collaboration between communities working on human modeling, 3D vision, graphics, and embodied AI.
+By providing access to these concepts, we aim to maximize the impact of recent advances and encourage their use in downstream applications.</p>
+
   </div>
 </section>
 
 
 <section class="section" id="schedule">
   <div class="container is-max-desktop content">
-    <h2 class="title">Schedule</h2>
+    <h2 class="title">Tentative Schedule</h2>
     <div class="content has-text-justified">
       <table class="table table-striped">
         <tbody>
@@ -367,7 +377,7 @@
             </td>
           </tr>
           <tr>
-            <td style="background-color:#A6CFD5;color:#EFECCA">10:30 - 12:30</td>
+            <td style="background-color:#A6CFD5;color:#EFECCA">15 min</td>
             <td><b>Coffee break with interactive demos</b></td>
           </tr>
           <tr>
@@ -388,6 +398,52 @@
     </div>
   </div>
 </section>
+
+<section class="section" id="program">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Program</h2>
+    <div class="content has-text-justified">
+      
+    <h3 class="title is-3">A Hands-on Tour of Human Parametric Body Mesh Models</h3>
+
+    <p>Parametric body models enable to encode the morphology and pose of humans in a compact, structured and controllable manner.
+They have a long history in computer vision and graphics, and are central to computer animation, motion capture, human avatars, and Human Mesh Recovery.
+Recently, body model parameters have also proven to be useful as a body language for Large Language Models (ChatPose).
+Multiple body models have been proposed over the years -- such as the seminal SMPL -- and the release of models with permissive licenses such as MHR and Anny is likely to increase their adoption beyond academic research.
+Yet, parametric body models are often perceived as complex black boxes by CV and ML practitioners unfamiliar with 3D geometry and computer graphics.</p>
+
+  <p>We propose in this tutorial to change that.
+  We will provide an overview of the field and help the audience navigate the zoo of parametric body models available (including SMPL, SMPL-H, SMPL-X, GHUM, STAR, SKEL, ATLAS, MHR, Anny, etc) and their targeted use cases.
+  Most importantly, the tutorial will cover the underlying principles of parametric body mesh modeling such as rigid transformations, skeletal animation, direct and inverse kinematics, mesh representation, skinning, as well as shape modeling. We will provide multiple interactive examples with code to help the audience become familiar with with these topics. We will also share some practical insights regarding the use of parametric body models for tasks such as model fitting and human mesh recovery.</p>
+
+    <h3 class="title is-3">3D Human Mesh Recovery from Images: A Practical Overview</h3>
+
+<p>The field of 3D human mesh recovery from RGB images has witnessed remarkable progress in recent years. In the nearly five years since the ``SMPL Made Simple'' tutorial at CVPR 2021, the landscape has transformed. Methods have matured and real-time end-to-end models are ready for use in novel applications in an off-the-shelf manner. Despite this progress, adoption outside the core research community remains limited due to unfamiliarity and a perceived complexity of handling 3D geometry, leading many researchers to rely on legacy 2D pose estimation tools, unaware that modern HMR methods now offer full 3D body geometry with shape, contact surfaces, and metric scale at comparable computational cost. Our goal is therefore to make these methods more accessible to broader audiences.</p>
+
+<p>This section provides a comprehensive overview of methods for recovering 3D human body meshes from RGB images. We set the stage by clarifying the task landscape, distinguishing HMR from related human-centric tasks such as 2D/3D pose estimation, DensePose, and avatar reconstruction, clarifying what the benefits of structured mesh recovery are (template correspondence, priors, contact modeling) and how it can be useful for adjacent research fields.
+We trace the evolution of methods from early, time-consuming optimization-based model fitting (e.g., SMPLify) to modern real-time end-to-end approaches (HMR2.0, SMPLer-X, NLF) and non-real time high-accuracy models (SAM 3D Body), discussing both parametric and point-based output representation. Beyond single-image methods, we briefly touch on extensions to multi-person scenarios (Multi-HMR, AiOS), temporal tracking (4DHumans), world-space trajectory estimation (WHAM, SLAHMR, TRAM), multi-view settings, and integration with recent geometric foundation models (Human3R, HAMSt3R).
+Through a practical survey of the state-of-the-art we offer recommendations for practitioners on choosing methods and avoiding common pitfalls. We conclude with open challenges and a live demonstration of human mesh recovery with the real-time SOTA NLF model.</p>
+
+
+<h3 class="title is-3">3D Human Pose and Shape Estimation from LiDAR point-clouds: an Overview</h3>
+
+<p>While RGB images offer high-resolution texture and color details that enhance object discrimination in perception systems, they remain highly sensitive to low-light conditions, glare, and overexposure, often yielding unusable data in challenging outdoor scenarios. Additionally, they suffer from inherent depth and scale ambiguity due to 3D-to-2D projection. To enhance HMR accuracy, researchers have integrated 3D data at the acquisition stage, first adopting Motion Capture (MoCap) systems and depth cameras (such as stereo-vision, structured-light, and time-of-flight sensors) in a Multi-Sensor-Fusion approach.</p>
+
+<p>Indeed, HMR from depth (e.g., Kinect) is now considered a fairly mature research field, as this additional modality provides pixel-wise distances that enhance the overall accuracy of the system. Despite these advances, depth cameras remain sensitive to lighting conditions and unreliable in outdoor settings.</p>
+<p>In comparison to RGB/depth cameras, LiDAR sensors offer a wider distance range, perform reliably under adverse weather conditions and are not sensitive to the absence of light which is crucial for safety critical applications such as autonomous driving, surveillance systems, etc. However, LiDAR point clouds present several challenges, notably, the lack of color and texture information, self- and mutual- occlusions, motion artifacts, noise-ridden measurements etc. Furthermore, due to the wider field of view of LiDAR scenes, the human subject sometimes represents a very small portion of the scene and can be described by a few points only depending on its distance to the sensor. Another notable issue is the high variability of scans from one LiDAR sensor to another %which leads to completely different aspects of human point clouds,
+that hinders the generalization capability of models. For these reasons, successful RGB-based methods and architectures rarely transfer seamlessly to LiDAR inputs, requiring adaptations for sensor-specific traits.</p>
+
+<p>In this portion of the tutorial, we aim to provide the audience with an overview of HMR methods that integrate LiDAR information into their pipelines based on our <a href="https://arxiv.org/pdf/2509.12197">recent survey in the field</a>. We will introduce the different LiDAR technologies used particularly in outdoor settings along with a brief taxonomy. Then we dive into the current 3D HMR approaches from LiDAR, categorize them, introduce the additional metrics suitable for this modality and the common datasets and benchmarks in the field, and finish with some potential research directions and open questions. %We will accompany our presentation with practical examples of synthetic LiDAR point cloud generation based on methods described in the papers presented. Also, depending on resource availability we intend to live demonstrate LiDAR point cloud aspects.
+We will illustrate our presentation with practical examples of synthetic LiDAR point cloud generation, and we intend to demonstrate particularities of LiDAR point clouds -- which the general CVPR audience may not be familiar with -- through live demonstrations.</p>
+
+
+</section>
+
+<section class="section" id="related">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Relation to Prior Tutorials</h2>
+    <div class="content has-text-justified">
+      <p>The most recent tutorial on body models and HMR was <a href="https://smpl.is.tue.mpg.de/">SMPL Made Simple</a> at CVPR 2021, and much has changed since then. Our tutorial provides a comprehensive, up-to-date introduction to make this research accessible to a broader audience.</p>
   
 <!-- Teaser video-->
 <!-- <section class="hero teaser">
@@ -523,11 +579,6 @@
 </section> -->
 <!-- End video carousel -->
 
-
-
-
-
-
 <!-- Paper poster -->
 <!-- <section class="hero is-small is-light">
   <div class="hero-body">
@@ -569,26 +620,6 @@
           </div>
 
           <div class="column is-one-quarter">
-            <a href="https://istvansarandi.com/">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image">
-                    <img class="is-rounded" src="./static/images/istvan.jpg" alt="Istvan Sarandi">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-content" style="overflow-x: unset;">
-                      <p class="title is-6 is-spaced">Istvan Sarandi</p>
-                      <p class="subtitle is-7">University of Tubingen</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="column is-one-quarter">
             <a href="https://salmag98.github.io">
               <div class="card">
                 <div class="card-image">
@@ -608,6 +639,25 @@
             </a>
           </div>
 
+          <div class="column is-one-quarter">
+            <a href="https://istvansarandi.com/">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img class="is-rounded" src="./static/images/istvan.jpg" alt="István Sárándi">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content" style="overflow-x: unset;">
+                      <p class="title is-6 is-spaced">István Sárándi</p>
+                      <p class="subtitle is-7">University of Tubingen</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
         
         <div class="columns is-multiline is-centered is-variable is-0">
