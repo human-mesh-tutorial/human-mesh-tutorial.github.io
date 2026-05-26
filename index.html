@@ -349,27 +349,24 @@ By providing access to these concepts, we aim to maximize the impact of recent a
 <section class="section" id="schedule">
   <div class="container is-max-desktop content">
     <h2 class="title">Tentative Schedule</h2>
+    <p>Time and place: <b>June 3rd, Mile High 2B</b></p>
     <div class="content has-text-justified">
       <table class="table table-striped">
         <tbody>
           <tr>
-            <td width="150" style="background-color:#EFECCA">15 min</td>
-            <td><b>Opening remarks and motivation</b></td>
-          </tr>
-          <tr>
-            <td style="background-color:#26408B;color:#EFECCA">60 min</td>
-            <td><b>Talk 1: A Hands-on tour of human parametric body mesh models (Romain Brégier)</b>
+            <td style="background-color:#26408B;color:#EFECCA">13:30-14:30</td>
+            <td><b>Understanding Human Parametric Body Mesh Models (Romain Brégier)</b>
               <ul>
-                <li>Motivation: what does it mean to model humans.</li>
-                <li>tutorial on building a parametric body mesh model.</li>
-                <li>State-of-the-art body models: specificities, use cases and interoperability.</li>
-                <li>Applications (model registration, Gaussian avatars, physics simulation, HMR).</li>
+                <li>Motivation for human body modeling</li>
+                <li>Fundamentals of parametric 3D body models</li>
+                <li>Overview of existing models (SMPL, SMPL-X, Anny, MHR, SOMA, etc.)</li>
+                <li>Practical considerations, interoperability, and limitations</li>
               </ul>
             </td>
           </tr>
           <tr>
-            <td style="background-color:#26408B;color:#EFECCA">60 min</td>
-            <td><b>Talk 2: 3D human mesh recovery from images (István Sárándi)</b>
+            <td style="background-color:#26408B;color:#EFECCA">14:30-15:30</td>
+            <td><b>3D human mesh recovery from images (István Sárándi)</b>
               <ul>
                 <li>Motivation, broader context, relation to other tasks.</li>
                 <li>Overview of core single-person HMR methods.</li>
@@ -382,11 +379,11 @@ By providing access to these concepts, we aim to maximize the impact of recent a
           </tr>
           <tr>
             <td style="background-color:#A6CFD5;color:#EFECCA">15 min</td>
-            <td><b>Coffee break with interactive demos</b></td>
+            <td><b>Coffee break</b></td>
           </tr>
           <tr>
-            <td style="background-color:#26408B;color:#EFECCA">60 min</td>
-            <td><b>Talk 3: 3D human pose and shape estimation from LiDAR point clouds (Salma Galaaoui)</b>
+            <td style="background-color:#26408B;color:#EFECCA">15:45-16:45</td>
+            <td><b>3D human pose and shape estimation from LiDAR point clouds (Salma Galaaoui)</b>
               <ul>
                 <li>Active sensors and depth cameras.</li>
                 <li>HMR in outdoor safety critical scenarios: motivating the use of LiDAR.</li>
@@ -408,17 +405,17 @@ By providing access to these concepts, we aim to maximize the impact of recent a
     <h2 class="title">Program</h2>
     <div class="content has-text-justified">
       
-    <h3 class="title is-3">A Hands-on Tour of Human Parametric Body Mesh Models</h3>
+    <h3 class="title is-3">Understanding Human Parametric Body Mesh Models</h3>
 
-    <p>Parametric body models enable to encode the morphology and pose of humans in a compact, structured and controllable manner.
+    <p>Parametric body models provide a compact, structured, and controllable representation of human morphology and pose.
 They have a long history in computer vision and graphics, and are central to computer animation, motion capture, human avatars, and Human Mesh Recovery.
-Recently, body model parameters have also proven to be useful as a body language for Large Language Models (ChatPose).
-Multiple body models have been proposed over the years -- such as the seminal SMPL -- and the release of models with permissive licenses such as MHR and Anny is likely to increase their adoption beyond academic research.
-Yet, parametric body models are often perceived as complex black boxes by CV and ML practitioners unfamiliar with 3D geometry and computer graphics.</p>
+More recently, body model parameters have also emerged as a structured representation for Large Language Models, as illustrated by works such as ChatPose.
+Multiple body models have been proposed over the years -- such as the seminal SMPL -- and the recent release of permissively licensed models such as MHR and Anny is likely to accelerate adoption beyond academia.
+Yet, many CV and ML practitioners still perceive parametric body models as opaque black boxes, especially when lacking a background with 3D geometry and computer graphics.</p>
 
-  <p>We propose in this tutorial to change that.
-  We will provide an overview of the field and help the audience navigate the zoo of parametric body models available (including SMPL, SMPL-H, SMPL-X, GHUM, STAR, SKEL, ATLAS, MHR, Anny, etc) and their targeted use cases.
-  Most importantly, the tutorial will cover the underlying principles of parametric body mesh modeling such as rigid transformations, skeletal animation, direct and inverse kinematics, mesh representation, skinning, as well as shape modeling. We will provide multiple interactive examples with code to help the audience become familiar with with these topics. We will also share some practical insights regarding the use of parametric body models for tasks such as model fitting and human mesh recovery.</p>
+  <p>This tutorial aims to bridge that gap.
+  We will provide an overview of the field and help the audience navigate the growing ecosystem of parametric body models (SMPL, SMPL-X, STAR, MHR, Anny, SOMA, etc) and their respective use cases.
+  Most importantly, the tutorial will cover the core principles behind parametric body mesh modeling -- including skeletal animation, skinning, and statistical shape modeling -- together with practical recommendations and implementation insights.</p>
 
     <h3 class="title is-3">3D Human Mesh Recovery from Images: A Practical Overview</h3>
 
